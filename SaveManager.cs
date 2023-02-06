@@ -15,13 +15,6 @@ namespace GGDok.SaveManager
             filePath =  $"C:/Users/{Environment.UserName}/{Application.productName}";
             var folder = Directory.CreateDirectory(filePath);
         }
-        private void Start()
-        {
-            Save(new Data(){name = "gg111",age = 33});
-            Data data = (Data)Load(typeof(Data));
-            Debug.Log(data.name);
-            Debug.Log(data.age);
-        }
         public void Save(object obj)
         {
             FileStream test = new FileStream(filePath+"/"+$"{obj.GetType().Name}.ggdok",FileMode.Create);
