@@ -5,4 +5,4 @@
 2. user, product별 url 경로 및 폴더 자동 추가
 3. Load, Save 메소드만 호출하면 됨.
 
-기본 저장 경로 C:/Users/<UserName>/<ProductName>
+기본 저장 경로 C:/Users/UserName/ProductName
