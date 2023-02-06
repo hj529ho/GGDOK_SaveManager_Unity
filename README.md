@@ -2,6 +2,7 @@
 
 기능
 1. c# 리플렉션을 활용한 자체 serializer/deserializer 제공
+ - 응용시 다양한 데이터 포맷으로 변경가능.(JSON 등)
 2. user, product별 url 경로 및 폴더 자동 추가
 3. Load, Save 메소드만 호출하면 됨.
 
